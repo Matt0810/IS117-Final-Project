@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+    border-bottom: solid;
+    background-color: rgb(21, 58, 83);
+    color: white;
+}
+main {
+    text-align: center;
+    font-size: large;
+    float: right;
+}
+body {
+    width: 98%;
+    max-width: 960px;
+    margin: 0 auto;
+    border: solid;
+    padding-bottom: 25px;
+}
+section p{
+    text-align: center;
+}
+#pictures {
+    text-align: center;
+}
+#laptopvsdesktop {
+    text-align: left;
+} 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    flex-basis: 40%;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
